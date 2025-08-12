@@ -8,7 +8,7 @@ let likeCounter = 0
 
 function likeOrUnlike() {
     if (likeButton.textContent.trim() == "Unlike!") {
-        catImage.src = "/assets/images/devil-cat.png"
+        catImage.src = "../assets/images/devil-cat.png"
 
         switch (likeCounter) {
             case 1:
@@ -39,7 +39,7 @@ function likeOrUnlike() {
     }
     else {
         likeCounter += 1;
-        catImage.src = "/assets/images/kind-cat.png"
+        catImage.src = "../assets/images/kind-cat.png"
         likeButton.textContent = "Unlike!"
         mainTextElement.textContent = initialMainText
     }
