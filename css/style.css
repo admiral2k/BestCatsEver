@@ -25,7 +25,14 @@
   object-position: center;
   border-radius: 10%;
   box-shadow: 5px 5px 7px rgba(48, 48, 34, 0.5);
-  margin-bottom: 1em;
+  margin-bottom: 1em;  
+  transition: opacity .25s ease, transform .25s ease;
+  opacity: 1;
+}
+
+.random-cat-image.is-switching {
+  opacity: 0;
+  transform: scale(.98);
 }
 
 .fav-random-cat-image {

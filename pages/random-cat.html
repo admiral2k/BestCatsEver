@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand p-0" href="../pages/index.html">
+        <a class="navbar-brand p-0 animate__animated animate__fadeInLeftBig" href="../pages/index.html">
           <img src="../assets/images/paw.png" width="40" alt="paw logo" />
         </a>
         <button
@@ -76,10 +76,10 @@
 
     <div class="container text-center my-4">
       <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-md-8 col-lg-6">
+        <div class="col-12 col-md-8 col-lg-6 align-self-start">
           <div class="random-cat-image-container">
             <img
-              src=""
+              src="../assets/images/random-cats/1.jpg"
               alt="Big Cat Image"
               class="random-cat-image img-fluid"
               id="random-cat-image"
@@ -87,19 +87,29 @@
           </div>
 
           <div class="">
-
-            <button class="btn btn-primary col-5 col-lg-5 my-2 fw-bold  me-5" id="show-another-btn">
+            <button
+              class="btn btn-primary col-5 col-lg-5 my-2 fw-bold me-5"
+              id="show-another-btn"
+            >
               Show another
             </button>
-            <button class="btn btn-warning col-5 col-lg-5 my-2 fw-bold" id="fav-btn">Favorite!</button>
-
+            <button
+              class="btn btn-warning col-5 col-lg-5 my-2 fw-bold"
+              id="fav-btn"
+            >
+              Favorite!
+            </button>
           </div>
         </div>
 
         <div class="col-12 col-lg-6 align-self-start">
-          <h2 class="animate__animated animate__fadeInDown fav-random-cat-label">Your favorite cats are here!</h4>
+          <h2
+            class="animate__animated animate__fadeInDown fav-random-cat-label"
+          >
+            Your favorite cats are here!
+          </h2>
           <div class="row row-cols-1 row-cols-md-2 g-3 justify-content-center">
-            <div
+            <!-- <div
               class="card position-relative fav-random-cat-card border-0 bg-transparent p-0"
             >
               <button
@@ -114,62 +124,9 @@
                 alt="Cat"
               />
 
-              <!-- Оверлей -->
               <div class="fav-overlay"></div>
-            </div>
-            <div
-              class="card position-relative fav-random-cat-card border-0 bg-transparent p-0"
-            >
-              <button
-                type="button"
-                class="btn-close btn-close-white position-absolute top-0 end-0 m-2"
-                aria-label="Close"
-              ></button>
-
-              <img
-                src="../assets/images/devil-cat.png"
-                class="card-img fav-fill"
-                alt="Cat"
-              />
-
-              <!-- Оверлей -->
-              <div class="fav-overlay"></div>
-            </div>            <div
-              class="card position-relative fav-random-cat-card border-0 bg-transparent p-0"
-            >
-              <button
-                type="button"
-                class="btn-close btn-close-white position-absolute top-0 end-0 m-2"
-                aria-label="Close"
-              ></button>
-
-              <img
-                src="../assets/images/devil-cat.png"
-                class="card-img fav-fill"
-                alt="Cat"
-              />
-
-              <!-- Оверлей -->
-              <div class="fav-overlay"></div>
-            </div>            <div
-              class="card position-relative fav-random-cat-card border-0 bg-transparent p-0"
-            >
-              <button
-                type="button"
-                class="btn-close btn-close-white position-absolute top-0 end-0 m-2"
-                aria-label="Close"
-              ></button>
-
-              <img
-                src="../assets/images/devil-cat.png"
-                class="card-img fav-fill"
-                alt="Cat"
-              />
-
-              <!-- Оверлей -->
-              <div class="fav-overlay"></div>
-            </div>
-            <!-- добавляй дальше такие же .col с .card -->
+            </div> -->
+            <!-- -->
           </div>
         </div>
       </div>
